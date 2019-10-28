@@ -3,6 +3,8 @@
  *  v1.3.3
  */
 
+
+
 /* clearfix */
 .owl-carousel .owl-wrapper:after {
   content: ".";
@@ -36,7 +38,7 @@
   -o-transition: height 500ms ease-in-out;
   transition: height 500ms ease-in-out;
 }
-  
+
 .owl-carousel .owl-item{
   float: left;
 }
@@ -68,6 +70,78 @@
   -moz-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
 }
+
+
+/* =============================  BANNER SLIDER =========================*/
+.section-slider.slider-style-2 .tparrows {
+  width: 25px;
+  height: 25px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+
+}
+  .section-slider.slider-style-2 .tparrows.tp-leftarrow {
+    left: 50px; }
+    .section-slider.slider-style-2 .tparrows.tp-leftarrow:before {
+      content: "\e61c";
+      font-family: 'Lotus Icon', sans-serif;
+      color: #fff;
+      z-index: 100;
+      font-size: 13px;
+}
+  .section-slider.slider-style-2 .tparrows.tp-rightarrow {
+    right: 50px; }
+    .section-slider.slider-style-2 .tparrows.tp-rightarrow:before {
+      content: "\e61d";
+      font-family: 'Lotus Icon','Bree Serif', sans-serif;
+      color: #fff;
+      z-index: 100;
+      font-size: 13px; }
+
+.section-slider.slider-style-2.clearfix {
+	position: static;
+	padding-top:0%;
+	padding-bottom: 70%;
+	height: 100px;
+	overflow: hidden;
+	width: 50% !important;
+	float: left;
+	transition: all 0.5s;
+	margin-bottom: 0%;
+	
+}
+
+.section-slider.slider-style-2.clearfix {
+	position: relative;
+	top:0;
+	left:0;
+	width: 100% !important;
+	height: 100% !important;
+}
+/*================================= GOOGLE MAP ===================================== */
+.section-map.style-2 {
+        position: inherit;
+        padding-bottom: 95%; // This is the aspect ratio
+        height: 100px;
+        overflow: hidden;
+		padding: 30px;
+		border: thin;
+		
+    }
+   .section-map.style-2 iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+	   margin: -10px;
+	   margin-left: 0px
+    }
+
+
+
 
 /*Transitions*/
 
